@@ -33,9 +33,6 @@ body {
     gap: 52px;
 }
 
-
-
-
 .block-two {
     background-color: #E5E7EB;
     display: flex;
@@ -92,5 +89,4 @@ img {
     border-radius: 8px;
     border-style: solid;
     border-color: #3882F6;
-   
 }
