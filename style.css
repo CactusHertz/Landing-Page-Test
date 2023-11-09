@@ -1,0 +1,36 @@
+
+.header,
+.footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.block-two {
+    background-color: #E5E7EB;
+}
+.block-three {
+    color: #F9FAF8;
+}
+
+.mini-block {
+    background-color: #3882F6;
+}
+
+.text {
+    color: #E5E7EB;
+}
+
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
