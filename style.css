@@ -4,45 +4,86 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Roboto';
 }
 
 .header,
 .footer {
     background-color: #1f2937;
     color: #F9FAF8;
+    
 }
 
 .header {
-    padding: 0px 64px;
+    padding: 0px 128px;
 }
+.logo {
+    font-size: 24px;
+}
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+.header-2 {
+    font-size: 48px; 
+}
+
 .top {
     display: flex;
     justify-content: space-between;
+    margin: 16px 0px;
 }
 .bottom {
     display: flex;
     justify-content: space-between;
+    gap: 32px;
+    margin: 64px 0px;
 }
+
+
 
 .block-one {
     text-align: center;
 }
+.header-3 {
+    margin: 32px 0px;
+    font-size: 36px;
+}
 .container {
     display: flex;
     justify-content: center;
-    gap: 52px;
+    gap: 48px;
+    margin-bottom: 64px;
 }
+.item {
+    max-width: 110px;
+}
+
 
 .block-two {
     background-color: #E5E7EB;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    padding: 64px 192px;
+}
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.author {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .block-three {
     color: #F9FAF8;
-    padding: 0px 64px;
+    padding: 64px 128px;
 }
 
 .mini-block {
@@ -50,17 +91,20 @@ body {
     display: flex;
     justify-content: space-around;
     border-radius: 8px;
+    padding: 32px;
 }
 
-.text {
-    color: #E5E7EB;
-}
-
-
-button {
+.sign-up {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
+    padding: 4px 24px;
+    margin: 8px 0px;
+    border-style: none;
+}
+#outline {
+    border-color: #F9FAF8;
+    border-style: solid;
 }
 
 ul {
@@ -72,21 +116,30 @@ ul {
     gap: 16px;
 }
 
-a {
-    text-decoration: none;
-    color: #F9FAF8;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-img {
+.square {
     width: 100px;
     height: 100px;
     border-radius: 8px;
     border-style: solid;
     border-color: #3882F6;
 }
+#rect{
+    width: 450px;
+    height: 150px;
+}
+
+.text {
+    color: #E5E7EB;
+    font-size: 12px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+}
+
+
+
